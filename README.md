@@ -8,4 +8,5 @@ mod. This could include something like the rare windmill, which demonstrates the
 
 Licensing
 
-You can use my mod in any modpack you want but please dont just repost my mod under a new name or stuff like that. If you have any questions about Licensing feel free to ask. Thanks :)
+You can use my mod in any modpack you want but remember to give credit.
+Please dont just repost my mod under a new name or stuff like that. If you have any questions about Licensing feel free to ask. Thanks :)
