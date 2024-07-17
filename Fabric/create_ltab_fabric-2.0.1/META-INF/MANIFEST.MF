@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Fabric-Jar-Type: classes
+Fabric-Gradle-Version: 8.3
+Fabric-Loom-Version: 1.4.6
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 1.20.1
+Fabric-Tiny-Remapper-Version: 0.8.9
+Fabric-Loader-Version: 0.14.21
+Fabric-Mixin-Version: 0.12.5+mixin.0.8.5
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

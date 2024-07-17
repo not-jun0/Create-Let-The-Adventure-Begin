@@ -1,0 +1,11 @@
+{
+  "echoes_of_the_underworld": {
+    "subtitle": "subtitles.echoes_of_the_underworld",
+    "sounds": [
+      {
+        "name": "create_ltab_f:ticktock",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab_f:shop_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 75,
+    "separation": 23,
+    "salt": 1292025408
+  }
+}

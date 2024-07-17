@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab_f:big_end_lab",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 30,
+    "salt": 1150739257
+  }
+}

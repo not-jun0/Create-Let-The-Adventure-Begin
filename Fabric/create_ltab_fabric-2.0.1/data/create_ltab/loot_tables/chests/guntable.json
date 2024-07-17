@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_ltab:shot_gun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:power",
+                "minecraft:flame",
+                "minecraft:mending",
+                "minecraft:quick_charge"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create_ltab:the_big_book_of_guns",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_ltab:shotgun_shell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:brass_sheet",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "create_ltab:chests/guntable"
+}

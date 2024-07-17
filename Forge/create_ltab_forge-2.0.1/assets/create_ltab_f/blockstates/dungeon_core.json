@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_ltab_f:block/dungeon_core"
+    }
+  }
+}

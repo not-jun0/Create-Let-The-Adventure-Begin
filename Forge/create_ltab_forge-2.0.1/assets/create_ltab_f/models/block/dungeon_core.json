@@ -1,0 +1,11 @@
+{
+  "parent": "create_ltab_f:custom/dungeon_core",
+  "textures": {
+    "all": "create_ltab_f:block/center",
+    "particle": "create_ltab_f:block/center",
+    "0": "create_ltab_f:block/center",
+    "2": "create_ltab_f:block/brass_block",
+    "3": "create_ltab_f:block/center2"
+  },
+  "render_type": "solid"
+}
