@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab_f:small_warped_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 2,
+    "salt": 646292523
+  }
+}

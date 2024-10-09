@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_ltab_f:sand_fragment"
+    },
+    {
+      "item": "create_ltab_f:earth_fragment"
+    },
+    {
+      "item": "create_ltab_f:grass_fragment"
+    },
+    {
+      "item": "create_ltab_f:ice_fragment"
+    }
+  ],
+  "result": {
+    "item": "create_ltab_f:echoes_of_the_underworld",
+    "count": 1
+  }
+}

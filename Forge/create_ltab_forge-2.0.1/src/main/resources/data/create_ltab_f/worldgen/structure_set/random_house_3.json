@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab_f:random_house_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 10,
+    "salt": 815243955
+  }
+}

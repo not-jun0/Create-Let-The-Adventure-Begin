@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab_f:normal_oak_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 70,
+    "salt": 1942395728
+  }
+}

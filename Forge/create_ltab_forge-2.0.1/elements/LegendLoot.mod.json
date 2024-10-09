@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [],
+    "name": "legend_loot",
+    "namespace": "mod"
+  }
+}

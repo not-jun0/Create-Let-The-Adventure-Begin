@@ -1,0 +1,41 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "shop2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 64,
+    "separation": 27,
+    "restrictionBiomes": [
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

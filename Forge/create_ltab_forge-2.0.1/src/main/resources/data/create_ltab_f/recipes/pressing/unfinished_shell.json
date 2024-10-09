@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_ltab_f:unfinished_shell"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ltab_f:shot_gun_shell"
+    }
+  ]
+}

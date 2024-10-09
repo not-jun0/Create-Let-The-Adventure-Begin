@@ -1,0 +1,35 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "ocean_remnant",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 70,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      }
+    ],
+    "surfaceDetectionType": "OCEAN_FLOOR",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

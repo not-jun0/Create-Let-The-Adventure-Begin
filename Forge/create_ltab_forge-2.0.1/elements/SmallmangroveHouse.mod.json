@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "small_mangrove_house",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 25,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "swamp"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

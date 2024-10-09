@@ -1,0 +1,38 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "floating_island1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "cherry_grove"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "big_end_lab",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 65,
+    "separation": 30,
+    "restrictionBiomes": [
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_midlands"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

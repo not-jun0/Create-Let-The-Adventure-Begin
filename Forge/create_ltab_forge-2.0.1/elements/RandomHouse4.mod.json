@@ -1,0 +1,32 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "random_house4",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 80,
+    "separation": 65,
+    "restrictionBiomes": [
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "plains"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

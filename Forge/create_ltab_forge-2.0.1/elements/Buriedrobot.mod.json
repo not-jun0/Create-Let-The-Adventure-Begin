@@ -1,0 +1,29 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "buriedrobot",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 40,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "taiga"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

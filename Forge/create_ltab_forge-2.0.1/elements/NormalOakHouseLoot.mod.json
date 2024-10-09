@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [],
+    "name": "blocks/normal_oak_house_loot",
+    "namespace": "mod"
+  }
+}

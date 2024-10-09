@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SandFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EarthFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GrassFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IceFragment"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EchoesOfTheUnderworld"
+    },
+    "name": "echoes_of_the_underworld_r",
+    "namespace": "mod"
+  }
+}
