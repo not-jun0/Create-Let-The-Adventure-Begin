@@ -1,7 +1,0 @@
-{
-  "parent": "create_ltab:custom/shotgun",
-  "textures": {
-    "0": "create_ltab:block/shotguntex",
-    "particle": "create_ltab:item/eou"
-  }
-}
