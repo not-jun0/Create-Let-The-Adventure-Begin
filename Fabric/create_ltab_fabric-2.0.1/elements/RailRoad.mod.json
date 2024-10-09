@@ -1,0 +1,29 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "railroad",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 100,
+    "separation": 50,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_plains"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

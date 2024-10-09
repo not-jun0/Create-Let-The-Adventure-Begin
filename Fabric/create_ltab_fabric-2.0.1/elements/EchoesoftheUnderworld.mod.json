@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "rarity": "EPIC",
+    "texture": "eou",
+    "description": "NotJuno - Echoes Of The Underworld",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:echoes_of_the_underworld"
+    },
+    "lengthInTicks": 1200,
+    "analogOutput": 12
+  }
+}

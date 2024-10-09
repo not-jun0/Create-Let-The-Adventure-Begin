@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab:big_windmill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 15,
+    "salt": 622275143
+  }
+}

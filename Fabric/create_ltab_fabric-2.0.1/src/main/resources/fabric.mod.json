@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "create_ltab",
+  "version": "2.1.2",
+  "name": "Create Let The Adventure Begin",
+  "description": "Structures for create mod",
+  "authors": [
+    "NotJuno, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "icon": "assets/create_ltab/icon.png",
+  "accessWidener": "create_ltab.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.createstructures.CreateLtabMod"
+    ],
+    "client": [
+      "net.mcreator.createstructures.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "create_ltab.mixins.json"
+  ]
+}

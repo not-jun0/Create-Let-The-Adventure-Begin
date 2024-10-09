@@ -1,0 +1,68 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "shop2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 64,
+    "separation": 27,
+    "restrictionBiomes": [
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "stony_peaks"
+      },
+      {
+        "value": "stone_beach"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

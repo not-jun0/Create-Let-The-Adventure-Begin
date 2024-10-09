@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "center",
+        "2": "brass_block",
+        "3": "center2"
+      },
+      "name": "default"
+    }
+  }
+}

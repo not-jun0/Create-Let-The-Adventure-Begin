@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab:baker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 5,
+    "salt": 1812108812
+  }
+}

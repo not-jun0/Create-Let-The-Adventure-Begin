@@ -1,0 +1,47 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "shop1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 75,
+    "separation": 23,
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

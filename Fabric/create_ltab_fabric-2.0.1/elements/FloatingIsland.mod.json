@@ -1,0 +1,56 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "floating_island1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 160,
+    "separation": 100,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "stony_peaks"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

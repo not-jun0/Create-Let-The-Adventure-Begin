@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab:well_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 20,
+    "salt": 967551315
+  }
+}

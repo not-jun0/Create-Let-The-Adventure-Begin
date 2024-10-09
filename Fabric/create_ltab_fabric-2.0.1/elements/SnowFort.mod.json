@@ -1,0 +1,35 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "snow_fort",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.BARRIER"
+      }
+    ],
+    "spacing": 50,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

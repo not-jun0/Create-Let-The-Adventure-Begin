@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab:bunker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 6,
+    "salt": 560814002
+  }
+}
