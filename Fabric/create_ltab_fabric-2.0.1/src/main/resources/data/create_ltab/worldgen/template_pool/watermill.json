@@ -15,9 +15,6 @@
               "blocks": [
                 {
                   "Name": "minecraft:structure_block"
-                },
-                {
-                  "Name": "minecraft:barrier"
                 }
               ]
             }

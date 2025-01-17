@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "structure",
   "definition": {
-    "structure": "shop2",
+    "structure": "shop_2",
     "projection": "rigid",
     "ignoredBlocks": [
       {

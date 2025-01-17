@@ -2,16 +2,19 @@
   "_fv": 57,
   "_type": "structure",
   "definition": {
-    "structure": "sandhouse1",
+    "structure": "baker",
     "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 55,
-    "separation": 15,
+    "spacing": 80,
+    "separation": 20,
     "restrictionBiomes": [
+      {
+        "value": "beaches"
+      },
       {
         "value": "desert"
       },
@@ -20,16 +23,10 @@
       },
       {
         "value": "mutated_mesa"
-      },
-      {
-        "value": "wooded_badlands_plateau"
-      },
-      {
-        "value": "beaches"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "terrainAdaptation": "beard_thin",
+    "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES"
   }
 }

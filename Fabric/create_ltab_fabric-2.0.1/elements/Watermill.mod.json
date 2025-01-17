@@ -7,9 +7,6 @@
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
-      },
-      {
-        "value": "Blocks.BARRIER"
       }
     ],
     "spacing": 50,
@@ -26,6 +23,9 @@
       },
       {
         "value": "birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",

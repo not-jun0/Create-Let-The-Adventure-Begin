@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "spiketexture",
+        "missing": "spiketexture"
+      },
+      "name": "default"
+    }
+  }
+}

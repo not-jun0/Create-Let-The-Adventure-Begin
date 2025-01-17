@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_ltab:block/water_wheel_spawner"
+    },
+    "facing=east": {
+      "model": "create_ltab:block/water_wheel_spawner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_ltab:block/water_wheel_spawner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_ltab:block/water_wheel_spawner",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "create_ltab:block/water_wheel_spawner",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "create_ltab:block/water_wheel_spawner",
+      "x": 90
+    }
+  }
+}

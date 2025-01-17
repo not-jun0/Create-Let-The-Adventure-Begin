@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "structure",
   "definition": {
-    "structure": "small_cherry_house",
+    "structure": "smallcherryhouse",
     "projection": "rigid",
     "ignoredBlocks": [
       {

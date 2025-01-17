@@ -3,69 +3,43 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 4
+        "min": 6,
+        "max": 15
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create:brass_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "name": "create:blaze_burner",
+          "weight": 2,
+          "quality": 5
+        },
         {
           "type": "minecraft:item",
-          "name": "create:blaze_burner"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.2
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 3
-      },
-      "entries": [
+          "name": "create:experience_nugget",
+          "weight": 25,
+          "quality": 0
+        },
         {
           "type": "minecraft:item",
-          "name": "create:electron_tube"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 2,
-        "max": 8
-      },
-      "entries": [
+          "name": "create:brass_block",
+          "weight": 7,
+          "quality": 3
+        },
         {
           "type": "minecraft:item",
-          "name": "create:experience_nugget"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 3
-      },
-      "entries": [
+          "name": "minecraft:iron_nugget",
+          "weight": 50,
+          "quality": -5
+        },
         {
           "type": "minecraft:item",
-          "name": "create:blaze_cake"
+          "name": "create:brass_ingot",
+          "weight": 17,
+          "quality": 3
         }
       ]
     }
   ],
+  "functions": [],
   "random_sequence": "create_ltab:legend_loot"
 }
-
-

@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "structure",
   "definition": {
-    "structure": "small_mangrove_house",
+    "structure": "smallmangrove_house",
     "projection": "rigid",
     "ignoredBlocks": [
       {

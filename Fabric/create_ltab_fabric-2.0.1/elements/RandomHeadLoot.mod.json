@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [],
+    "name": "random_head_loot",
+    "namespace": "mod"
+  }
+}

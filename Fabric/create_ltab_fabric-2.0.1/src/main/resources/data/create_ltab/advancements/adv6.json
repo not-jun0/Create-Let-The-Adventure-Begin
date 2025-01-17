@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "The Baker",
+    "description": "Find the baker"
+  },
+  "parent": "create_ltab:adv4",
+  "criteria": {
+    "Structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "create_ltab:baker"
+          }
+        }
+      }
+    }
+  }
+}

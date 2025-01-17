@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "function",
+  "definition": {
+    "code": "gamerule sendCommandFeedback false\nsummon minecraft:zombie ~ ~ ~\nloot replace entity @e[type=minecraft:zombie,distance=..1] armor.head loot create_ltab:random_head_loot\nloot replace entity @e[type=minecraft:zombie,distance=..1] armor.chest loot create_ltab:random_chest_loot\nloot replace entity @e[type=minecraft:zombie,distance=..1] armor.legs loot create_ltab:random_leg_loot\nloot replace entity @e[type=minecraft:zombie,distance=..1] armor.feet loot create_ltab:random_foot_loot\nloot replace entity @e[type=minecraft:zombie,distance=..1] weapon loot create_ltab:random_weapon_loot\nsetblock ~ ~ ~ minecraft:air \n",
+    "name": "zombie_function",
+    "namespace": "mod"
+  }
+}

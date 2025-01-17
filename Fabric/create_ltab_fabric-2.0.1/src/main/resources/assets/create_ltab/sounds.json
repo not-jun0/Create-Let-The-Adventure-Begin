@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "koinodiscoqueen": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "create_ltab:yakuza_0_ost_-_82_koi_no_disco_queen_lian_nodeisukokuin",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "create_ltab:thecastle/towers",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:thecastle/tower1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+        }
+      },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:thecastle/tower2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

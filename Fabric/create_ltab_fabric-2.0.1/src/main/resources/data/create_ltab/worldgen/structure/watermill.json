@@ -14,7 +14,8 @@
     "savanna",
     "savanna_plateau",
     "windswept_savanna",
-    "birch_forest"
+    "birch_forest",
+    "old_growth_birch_forest"
   ],
   "use_expansion_hack": false
 }

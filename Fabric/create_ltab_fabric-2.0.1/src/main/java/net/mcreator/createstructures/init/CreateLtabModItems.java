@@ -31,6 +31,9 @@ public class CreateLtabModItems {
 	public static Item ICE_FRAGMENT;
 	public static Item GRASS_FRAGMENT;
 	public static Item LONELY_KNIGHT_SPAWN_EGG;
+	public static Item WATER_WHEEL_SPAWNER;
+	public static Item LARGE_WATER_WHEEL_SPAWNER;
+	public static Item SPIKE_TRAP;
 
 	public static void load() {
 		ECHOESOFTHE_UNDERWORLD = register("echoesofthe_underworld", new EchoesoftheUnderworldItem());
@@ -41,6 +44,10 @@ public class CreateLtabModItems {
 		GRASS_FRAGMENT = register("grass_fragment", new GrassFragmentItem());
 		LONELY_KNIGHT_SPAWN_EGG = register("lonely_knight_spawn_egg", new SpawnEggItem(CreateLtabModEntities.LONELY_KNIGHT, -1, -1, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(LONELY_KNIGHT_SPAWN_EGG));
+		WATER_WHEEL_SPAWNER = register("water_wheel_spawner", new BlockItem(CreateLtabModBlocks.WATER_WHEEL_SPAWNER, new Item.Properties()));
+		LARGE_WATER_WHEEL_SPAWNER = register("large_water_wheel_spawner", new BlockItem(CreateLtabModBlocks.LARGE_WATER_WHEEL_SPAWNER, new Item.Properties()));
+		SPIKE_TRAP = register("spike_trap", new BlockItem(CreateLtabModBlocks.SPIKE_TRAP, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(SPIKE_TRAP));
 	}
 
 	public static void clientLoad() {

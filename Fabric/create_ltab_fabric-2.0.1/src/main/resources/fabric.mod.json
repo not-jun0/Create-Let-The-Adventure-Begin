@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "create_ltab",
-  "version": "2.1.2",
+  "version": "2.3.3",
   "name": "Create Let The Adventure Begin",
   "description": "Structures for create mod",
   "authors": [
@@ -11,7 +11,7 @@
     "homepage": "https://mcreator.net",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "Custom license",
   "icon": "assets/create_ltab/icon.png",
   "accessWidener": "create_ltab.accesswidener",
   "environment": "*",

@@ -1,60 +1,93 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:fishing/treasure",
   "pools": [
     {
-      "rolls": 3,
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "quality": 3,
-          "name": "create:rose_quartz"
+          "name": "minecraft:name_tag",
+          "quality": 0
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "name": "minecraft:saddle",
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "quality": 1,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
           "quality": 2,
-          "name": "create:brass_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
-      "entries": [
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book"
+        },
         {
           "type": "minecraft:item",
-          "name": "create:golden_sheet"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 2,
-        "max": 7
-      },
-      "entries": [
+          "name": "minecraft:nautilus_shell",
+          "quality": 1
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_nugget"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 3
-      },
-      "entries": [
+          "name": "create:brass_ingot",
+          "weight": 2,
+          "quality": 1
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
+          "name": "create:polished_rose_quartz",
+          "weight": 2,
+          "quality": 2
         }
-      ]
+      ],
+      "rolls": 1
     }
   ],
-  "random_sequence": "create_ltab:rare_loot"
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
 }

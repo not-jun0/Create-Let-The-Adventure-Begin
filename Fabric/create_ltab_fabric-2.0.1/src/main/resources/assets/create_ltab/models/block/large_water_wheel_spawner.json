@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_ltab:block/spawnertexture",
+    "up": "create_ltab:block/spawnertexture",
+    "north": "create_ltab:block/spawnersmallwaterwheel",
+    "east": "create_ltab:block/spawnertexture",
+    "south": "create_ltab:block/spawnertexture",
+    "west": "create_ltab:block/spawnertexture",
+    "particle": "create_ltab:block/spawnertexture"
+  },
+  "render_type": "solid"
+}

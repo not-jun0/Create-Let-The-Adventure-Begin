@@ -1,0 +1,10 @@
+{
+  "parent": "create_ltab:custom/spike_trap",
+  "textures": {
+    "all": "create_ltab:block/spiketexture",
+    "particle": "create_ltab:block/spiketexture",
+    "1": "create_ltab:block/spiketexture",
+    "missing": "create_ltab:block/spiketexture"
+  },
+  "render_type": "cutout"
+}

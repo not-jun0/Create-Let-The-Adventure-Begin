@@ -1,0 +1,183 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "spiketexture",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "spike_trap:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 1.0,
+        "my": 0.0,
+        "mz": 1.75,
+        "Mx": 3.0,
+        "My": 3.25,
+        "Mz": 3.75,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.75,
+        "Mx": 6.0,
+        "My": 3.25,
+        "Mz": 6.75,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 0.0,
+        "mz": 3.75,
+        "Mx": 13.0,
+        "My": 3.25,
+        "Mz": 5.75,
+        "subtract": false
+      },
+      {
+        "mx": 13.0,
+        "my": 0.0,
+        "mz": 8.75,
+        "Mx": 15.0,
+        "My": 3.25,
+        "Mz": 10.75,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 0.0,
+        "mz": 10.75,
+        "Mx": 10.0,
+        "My": 3.25,
+        "Mz": 12.75,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 11.75,
+        "Mx": 4.0,
+        "My": 3.25,
+        "Mz": 13.75,
+        "subtract": false
+      }
+    ],
+    "name": "Spike Trap",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 0.7999999999999999,
+    "resistance": 8.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 0.4,
+    "jumpFactor": 0.7000000000000001,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "isBonemealable": false,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 1,
+    "inventoryStackSize": 1,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "SpikeTrapEntityWalksOnTheBlock"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}
