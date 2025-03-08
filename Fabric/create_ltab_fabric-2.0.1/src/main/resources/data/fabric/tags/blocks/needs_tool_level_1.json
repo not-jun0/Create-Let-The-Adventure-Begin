@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "create_ltab:dungeon_core",
-    "create_ltab:water_wheel_spawner",
-    "create_ltab:large_water_wheel_spawner",
-    "create_ltab:spike_trap"
-  ]
-}

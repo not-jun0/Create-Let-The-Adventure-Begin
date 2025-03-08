@@ -1,0 +1,42 @@
+{
+  "name": "create_ltab:mob/armor",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/armor/barbarian",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/armor/shooter",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/armor/whitch",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:mob/armor/crafter",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

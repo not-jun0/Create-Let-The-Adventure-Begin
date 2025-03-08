@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "The Cold"
+        },
+        "description": {
+            "text": "Enter the cold"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{display:{color:3847130}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "snowblock": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:snow"
+            }
+        }
+    },
+    "parent": "create_ltab:root"
+}

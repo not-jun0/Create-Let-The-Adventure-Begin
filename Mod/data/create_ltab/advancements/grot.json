@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    "title": "The Grot",
+    "description": "Find the entrance to a grot"
+  },
+  "parent": "create_ltab:core",
+  "criteria": {
+    "Structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "create_ltab:grot"
+          }
+        }
+      }
+    }
+  }
+}

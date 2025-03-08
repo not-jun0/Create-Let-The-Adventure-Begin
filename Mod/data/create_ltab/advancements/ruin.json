@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "title": "Ruins",
+    "description": "Find a ruin"
+  },
+  "parent": "create_ltab:plains",
+  "criteria": {
+    "Structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "create_ltab:ruins"
+          }
+        }
+      }
+    }
+  }
+}

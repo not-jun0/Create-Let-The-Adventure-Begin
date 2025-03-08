@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.modrinth",
+    "id": "create_ltab",
+    "version": "2.6.0",
+    "metadata": {
+      "name": "Create Let The Adventure Begin",
+      "description": "Create: Let The Adventure Begin adds Structures 62 unique structures, New Loot, a chance to fish create mod items and much more !!!",
+      "icon": "pack.png",
+      "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-let-the-adventure-begin",
+        "sources": "https://github.com/not-jun0/Create-Let-The-Adventure-Begin",
+        "issues": "https://github.com/not-jun0/Create-Let-The-Adventure-Begin/issues"
+      }
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

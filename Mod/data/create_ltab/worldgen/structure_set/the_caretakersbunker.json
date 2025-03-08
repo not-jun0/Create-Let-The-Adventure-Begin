@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 3,
+    "distance": 6,
+    "preferred_biomes": "#minecraft:has_structure/trail_ruins",
+    "salt": 0,
+    "spread": 2
+  },
+  "structures": [
+    {
+      "structure": "create_ltab:the_caretakersbunker",
+      "weight": 1
+    }
+  ]
+}
