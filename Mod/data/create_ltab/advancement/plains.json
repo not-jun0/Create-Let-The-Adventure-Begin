@@ -1,0 +1,36 @@
+{
+  "parent": "create_ltab:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:dyed_color": 8439583
+      }
+    },
+    "title": {
+      "translate": "advancements.create_ltab.plains.title",
+      "fallback": "The Plains"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.plains.description",
+      "fallback": "Enter the Plains"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "grass_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": ["minecraft:grass_block"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "background": "create:textures/block/dark_metal_block.png",
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "advancements.create_ltab.root.title",
+      "fallback": "Let The Adventure Begin"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.root.description",
+      "fallback": "The §mfirst§r beginning"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
