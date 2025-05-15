@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.create_ltab.luck",
+    "fallback": "Luck"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:generic.luck",
+        "id": "minecraft:enchantment.luck",
+        "amount": 1,
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 1
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": ["armor"],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 10
+}
