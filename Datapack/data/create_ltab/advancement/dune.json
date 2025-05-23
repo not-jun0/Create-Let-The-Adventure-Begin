@@ -1,0 +1,36 @@
+{
+  "parent": "create_ltab:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:dyed_color": 16701501
+      }
+    },
+    "title": {
+      "translate": "advancements.create_ltab.dune.title",
+      "fallback": "The Dunes"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.dune.description",
+      "fallback": "Enter the Dunes"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": ["minecraft:sand"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

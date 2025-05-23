@@ -1,0 +1,36 @@
+{
+  "parent": "create_ltab:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:dyed_color": 4673362
+      }
+    },
+    "title": {
+      "translate": "advancements.create_ltab.core.title",
+      "fallback": "The Core"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.core.description",
+      "fallback": "Enter the Core"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": ["minecraft:stone"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
