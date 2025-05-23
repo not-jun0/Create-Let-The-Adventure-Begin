@@ -1,0 +1,24 @@
+{
+  "name": "create_ltab:jungle_pre",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:jungle/well_1",
+        "processors": "create_ltab:mossify_70"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:jungle/well_2",
+        "processors": "create_ltab:mossify_70"
+      }
+    }
+  ]
+}

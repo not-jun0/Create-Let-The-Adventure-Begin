@@ -1,0 +1,30 @@
+{
+  "parent": "create_ltab:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:dyed_color": 3847130
+      }
+    },
+    "title": {
+      "translate": "advancements.create_ltab.cold.title",
+      "fallback": "The Cold"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.cold.description",
+      "fallback": "Enter the Cold"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "snow": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:snow"
+      }
+    }
+  }
+}

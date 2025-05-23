@@ -1,0 +1,24 @@
+{
+  "name": "create_ltab:spruce_structures",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:spruce/spruce_house_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:spruce/fire_tower",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
