@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "create_ltab:jungle_pre",
+  "start_pool": "create_ltab:jungle_well",
   "size": 1,
   "max_distance_from_center": 64,
   "spawn_overrides": {},

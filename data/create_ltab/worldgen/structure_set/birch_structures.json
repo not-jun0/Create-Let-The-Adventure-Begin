@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "create_ltab:jungle_pre",
+      "structure": "create_ltab:birch_structures",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 30,
-    "separation": 20,
-    "salt": 967743689
+    "spacing": 50,
+    "separation": 10,
+    "salt": 77928767
   }
 }
