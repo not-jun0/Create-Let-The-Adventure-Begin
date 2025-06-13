@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "create_ltab:birch/birch_baseplate",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": {
           "processors": [
             {
