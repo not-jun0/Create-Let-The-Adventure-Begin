@@ -1,0 +1,15 @@
+{
+  "name": "create_ltab:castle/bridge_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:castle/castle_bridge_bottom",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

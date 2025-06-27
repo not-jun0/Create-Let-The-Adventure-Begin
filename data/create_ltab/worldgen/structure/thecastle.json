@@ -1,45 +1,18 @@
 {
+  "type": "minecraft:jigsaw",
+  "start_pool": "create_ltab:castle/castle_start",
+  "size": 7,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 20
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
     "birch_forest",
-    "cherry_grove",
-    "dark_forest",
-    "flower_forest",
-    "forest",
-    "meadow",
-    "old_growth_birch_forest",
-    "old_growth_pine_taiga",
-    "old_growth_spruce_taiga",
-    "plains",
-    "snowy_slopes",
-    "snowy_plains",
-    "snowy_taiga",
-    "sunflower_plains",
-    "jungle",
-    "taiga"
+    "old_growth_birch_forest"
   ],
-	"adapt_noise": false,
-	"spawn_overrides": {
-    "monster": {
-      "bounding_box": "full",
-      "spawns": [
-        {
-          "type": "minecraft:pillager",
-          "weight": 1,
-          "minCount": 1,
-          "maxCount": 5
-        }
-      ]
-    }
-},
-	"type": "minecraft:jigsaw",
-	"start_pool": "create_ltab:thecastle/wall",
-	"size": 7,
-        "step": "raw_generation",
-	"start_height": {
-		"absolute": -8
-	},
-	"project_start_to_heightmap": "WORLD_SURFACE_WG",
-	"max_distance_from_center": 116,
-	"terrain_adaptation": "beard_box",
-	"use_expansion_hack": false
+  "use_expansion_hack": false
 }

@@ -1,16 +1,14 @@
 {
-  "placement": {
-    "type": "minecraft:concentric_rings",
-    "count": 5,
-    "distance": 30,
-    "preferred_biomes": "#minecraft:has_structure/trail_ruins",
-    "salt": 0,
-    "spread": 1
-  },
   "structures": [
     {
       "structure": "create_ltab:thecastle",
       "weight": 1
     }
-  ]
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 10,
+    "salt": 77928767
+  }
 }
