@@ -1,0 +1,42 @@
+{
+  "name": "create_ltab:mob/pill",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 10,
+      "element": {
+        "location": "create_ltab:mob/pill/barbarian",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 8,
+      "element": {
+        "location": "create_ltab:mob/pill/shooter",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/pill/evoker",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 6,
+      "element": {
+        "location": "create_ltab:mob/pill/nitwit",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
