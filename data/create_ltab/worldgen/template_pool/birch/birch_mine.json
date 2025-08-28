@@ -10,6 +10,17 @@
         "location": "create_ltab:birch/birch_mine",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:descent/hall1",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
+
+

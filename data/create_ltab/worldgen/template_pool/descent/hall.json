@@ -1,0 +1,39 @@
+{
+  "name": "create_ltab:descent/hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 5,
+      "element": {
+        "location": "create_ltab:descent/hall1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },	{	
+      "weight": 8,
+      "element": {
+        "location": "create_ltab:descent/hall2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },	{	
+      "weight": 5,
+      "element": {
+        "location": "create_ltab:descent/hall3",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },	{	
+      "weight": 5,
+      "element": {
+        "location": "create_ltab:descent/hall4",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
