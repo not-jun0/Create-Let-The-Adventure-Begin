@@ -6,7 +6,7 @@
     },
     "title": {
       "translate": "advancements.create_ltab.ruin.title",
-      "fallback": "Ruins"
+      "fallback": "They ruininit"
     },
     "description": {
       "translate": "advancements.create_ltab.ruin.description",

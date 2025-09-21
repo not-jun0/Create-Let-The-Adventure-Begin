@@ -5,7 +5,7 @@
 	{	
       "weight": 10,
       "element": {
-        "location": "create_ltab:mob/pill/barbarian",
+        "location": "create_ltab:mob/plain_pillager",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
 	{	
       "weight": 8,
       "element": {
-        "location": "create_ltab:mob/pill/shooter",
+        "location": "create_ltab:mob/plain_vindicator",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
 	{	
       "weight": 2,
       "element": {
-        "location": "create_ltab:mob/pill/evoker",
+        "location": "create_ltab:mob/plain_evoker",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
 	{	
       "weight": 6,
       "element": {
-        "location": "create_ltab:mob/pill/nitwit",
+        "location": "create_ltab:mob/plain_nitwit",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

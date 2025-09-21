@@ -19,15 +19,6 @@
         "location": "create_ltab:birch/birch_extra_2",
         "processors": "minecraft:empty"
       }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "create_ltab:birch/birch_road",
-        "processors": "minecraft:empty"
-      }
     }
   ]
 }

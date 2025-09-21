@@ -1,0 +1,15 @@
+{
+  "name": "create_ltab:mob/plain",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/plain_zombie",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

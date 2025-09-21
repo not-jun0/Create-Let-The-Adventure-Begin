@@ -10,7 +10,7 @@
     },
     "description": {
       "translate": "advancements.create_ltab.lucky.description",
-      "fallback": "Get a potion of luck"
+      "fallback": "Consume a potion of luck"
     }
   },
   "criteria": {

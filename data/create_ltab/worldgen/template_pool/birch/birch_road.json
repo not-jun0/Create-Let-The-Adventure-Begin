@@ -1,0 +1,69 @@
+{
+  "name": "create_ltab:birch/birch_road",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road1",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road2",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road3",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road4",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road5",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road6",
+        "processors": "minecraft:street_plains"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "create_ltab:birch/birch_road7",
+        "processors": "minecraft:street_plains"
+      }
+    }
+  ]
+}

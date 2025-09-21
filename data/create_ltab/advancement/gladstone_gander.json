@@ -1,0 +1,35 @@
+{
+  "parent": "create_ltab:lucky",
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot",
+      "components": {
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:looting": 1
+          }
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.create_ltab.gladstone_gander.title",
+      "fallback": "Gladstone Gander"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.gladstone_gander.description",
+      "fallback": "Upgrade a potion of luck with a rabbit's foot"
+    }
+  },
+  "criteria": {
+    "gladstone_gander": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:luck": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

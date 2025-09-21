@@ -10,10 +10,6 @@
     "absolute": -22
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "bamboo_jungle",
-    "jungle",
-    "sparse_jungle"
-  ],
+ "biomes": "#minecraft:is_jungle",
   "use_expansion_hack": false
 }

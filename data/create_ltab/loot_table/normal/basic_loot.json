@@ -4,14 +4,15 @@
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 1
       },
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 8,
-          "quality": -2,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -43,37 +44,6 @@
           "name": "minecraft:saddle",
           "weight": 7,
           "quality": 0
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "create_ltab:grot",
-              "decoration": "minecraft:red_x",
-              "zoom": 4,
-              "skip_existing_chunks": false,
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "create_ltab:big_structures_plains",
-              "decoration": "minecraft:red_x",
-              "zoom": 4,
-              "skip_existing_chunks": false
-            }
-          ]
         }
       ]
     },
@@ -83,14 +53,14 @@
         {
           "type": "minecraft:item",
           "name": "bread",
-          "weight": 5,
-          "quality": 1,
+          "weight": 4,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 10
+                "max": 7
               }
             }
           ]
@@ -104,10 +74,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
+                "min": 5,
                 "max": 10
-              },
-              "add": true
+              }
             }
           ]
         },
@@ -120,10 +89,39 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "weight": 2,
+          "quality": -1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
                 "min": 3,
                 "max": 10
-              },
-              "add": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 7,
+          "quality": -1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
             }
           ]
         }
@@ -131,21 +129,8 @@
     },
     {
       "rolls": 1,
+      "bonus_rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 2,
-          "quality": 0,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "create_ltab:enchantment_luck"
-              ]
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:brick",
@@ -156,7 +141,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 12
+                "max": 7
               }
             }
           ]
@@ -170,10 +155,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 12
-              },
-              "add": false
+                "min": 5,
+                "max": 10
+              }
             }
           ]
         },
@@ -186,39 +170,23 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 6
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "create:andesite_alloy",
-          "weight": 10,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "create:brass_ingot",
-          "weight": 1,
-          "quality": 4,
+          "name": "create:andesite_alloy",
+          "weight": 12,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 5
+                "min": 3,
+                "max": 7
               }
             }
           ]

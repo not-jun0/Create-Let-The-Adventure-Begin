@@ -6,20 +6,18 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "create_ltab:birch/birch_baseplate",
-        "projection": "terrain_matching",
-        "processors": {
-          "processors": [
-            {
-              "processor_type": "minecraft:block_ignore",
-              "blocks": [
-                {
-                  "Name": "minecraft:structure_block"
-                }
-              ]
-            }
-          ]
-        }
+        "projection": "rigid",
+        "location": "create_ltab:birch/birch_baseplate1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:birch/birch_baseplate2",
+        "processors": "minecraft:empty"
       }
     }
   ]

@@ -12,7 +12,10 @@
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
     "birch_forest",
+    "plains",
+    "birch_forest",
     "old_growth_birch_forest"
   ],
-  "use_expansion_hack": false
+  "liquid_settings": "ignore_waterlogging",
+  "use_expansion_hack": true
 }
