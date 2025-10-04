@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    "title": {
+      "translate": "advancements.create_ltab.grot.title",
+      "fallback": "The Grot"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.grot.description",
+      "fallback": "Find the entrance to a grot"
+    }
+  },
+  "parent": "create_ltab:core",
+  "criteria": {
+    "Structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "create_ltab:grot"
+          }
+        }
+      }
+    }
+  }
+}

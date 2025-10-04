@@ -7,8 +7,14 @@
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 60,
+    "spacing": 70,
     "separation": 20,
-    "salt": 774649767
+    "salt": 774649767,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "other_set": "create_ltab:plains_big",
+      "chunk_count": 16
+    }
   }
 }

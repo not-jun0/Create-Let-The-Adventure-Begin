@@ -1,0 +1,30 @@
+{
+  "parent": "create_ltab:plains",
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.create_ltab.lucky.title",
+      "fallback": "Get Lucky"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.lucky.description",
+      "fallback": "Consume a potion of luck"
+    }
+  },
+  "criteria": {
+    "lucky": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:luck",
+          "nbt": "{Tags:{lucky:true}}"
+        }
+      }
+    }
+  }
+}

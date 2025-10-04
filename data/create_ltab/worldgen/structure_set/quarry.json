@@ -9,6 +9,11 @@
     "type": "minecraft:random_spread",
     "spacing": 67,
     "separation": 0,
-    "salt": 3426734
+    "salt": 3426734,
+    "frequency": 0.7,
+    "exclusion_zone": {
+      "other_set": "create_ltab:thecastle",
+      "chunk_count": 10
+    }
   }
 }

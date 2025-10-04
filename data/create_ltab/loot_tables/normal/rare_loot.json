@@ -1,0 +1,203 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 3,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 3,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:zinc_ingot",
+          "weight": 3,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:andesite_alloy",
+          "weight": 3,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:infinity",
+                "minecraft:knockback",
+                "minecraft:looting"
+              ],
+              "options": [
+                "minecraft:looting",
+                "minecraft:knockback",
+                "minecraft:mending"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 3,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 2,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 8,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.create_ltab.potion_of_luck",
+                "fallback": "Potion Of Luck",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tags:{lucky:true}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 3,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "create_ltab:grot",
+              "decoration": "mansion",
+              "zoom": 4,
+              "skip_existing_chunks": false,
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.create_ltab.grot_map",
+                "fallback": "Grot Explorer Map",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "create_ltab:normal/rare_loot"
+}

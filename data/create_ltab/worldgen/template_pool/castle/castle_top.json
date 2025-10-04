@@ -1,13 +1,13 @@
 {
   "name": "create_ltab:castle/castle_top",
-  "fallback": "minecraft:empty",
+  "fallback": "create_ltab:castle/castle_top",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:castle/castle_bottom",
+        "location": "create_ltab:castle/castle_top",
         "processors": "minecraft:empty"
       }
     },
@@ -16,7 +16,16 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:castle/castle_bottom2",
+        "location": "create_ltab:castle/castle_top2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:castle/castle_top3",
         "processors": "minecraft:empty"
       }
     }

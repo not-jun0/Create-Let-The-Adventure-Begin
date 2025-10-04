@@ -1,0 +1,28 @@
+{
+  "parent": "create_ltab:core",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.create_ltab.quarry.title",
+      "fallback": "As a child i yearned for the mines"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.quarry.description",
+      "fallback": "Find an entrance to a quarry"
+    }
+  },
+  "criteria": {
+    "sand_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "create_ltab:quarry"
+          }
+        }
+      }
+    }
+  }
+}
