@@ -15,6 +15,17 @@
           "quality": 2,
           "functions": [
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.create_ltab.potion_of_luck_lore",
+                  "fallback": "Increases the chances of getting better loot from chests",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.create_ltab.potion_of_luck",

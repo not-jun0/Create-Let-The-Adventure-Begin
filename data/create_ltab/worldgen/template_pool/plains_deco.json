@@ -118,6 +118,33 @@
         "location": "create_ltab:deco/plains_deco13",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:deco/plains_deco14",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:deco/plains_deco15",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:deco/plains_deco16",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

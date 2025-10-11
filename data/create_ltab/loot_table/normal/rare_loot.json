@@ -147,14 +147,24 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 8,
-          "quality": 0,
+          "quality": 2,
           "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.create_ltab.potion_of_luck_lore",
+                  "fallback": "Increases the chances of getting better loot from chests",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.create_ltab.potion_of_luck",
-                "fallback": "Potion Of Luck",
-                "italic": false
+                "fallback": "Potion Of Luck"
               }
             },
             {

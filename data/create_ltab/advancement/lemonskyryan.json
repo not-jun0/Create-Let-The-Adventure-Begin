@@ -1,0 +1,35 @@
+{
+  "parent": "create_ltab:plains",
+  "display": {
+    "icon": {
+      "id": "create:track"
+    },
+    "title": {
+      "translate": "advancements.create_ltab.lemonskyryan.title",
+      "fallback": "What's This?"
+    },
+    "description": {
+      "translate": "advancements.create_ltab.lemonskyryan.description",
+      "fallback": "Find the secret gift in LemonskyRyan's favourite structure"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ruins": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:custom_name": "\"Thanks Cake!!!\""
+            }
+          }
+        ]
+      }
+    }
+  }
+}

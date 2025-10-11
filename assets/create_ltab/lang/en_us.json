@@ -21,9 +21,12 @@
   "advancements.create_ltab.windmill.description": "Find the Windmill",
   "advancements.create_ltab.lucky.title": "Get Lucky",
   "advancements.create_ltab.lucky.description": "Consume a potion of luck",
+  "advancements.create_ltab.lemonskyryan.title": "What's This?",
+  "advancements.create_ltab.lemonskyryan.description": "Find the secret gift in LemonskyRyan's favourite structure",
   "enchantment.create_ltab.luck": "Luck",
   "enchantment.create_ltab.luck.desc": "Increases the chance of obtaining better loot",
   "item.create_ltab.potion_of_luck": "Potion Of Luck",
+  "item.create_ltab.potion_of_luck_lore": "Increases the chances of getting better loot from chests",
   "item.create_ltab.grot_map": "Grot Explorer Map",
   "item.create_ltab.explorer_map": "Explorer Map"
 }
