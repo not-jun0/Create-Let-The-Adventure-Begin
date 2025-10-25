@@ -10,6 +10,24 @@
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/plain_skeleton",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/plain_creeper",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }

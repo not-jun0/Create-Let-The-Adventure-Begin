@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:non_treasure",
+    "minecraft:binding_curse",
+    "minecraft:vanishing_curse",
+    "minecraft:frost_walker",
+    "create_ltab:enchantment_luck",
+    "minecraft:mending"
+  ]
+}
