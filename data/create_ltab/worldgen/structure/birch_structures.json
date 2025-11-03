@@ -14,5 +14,5 @@
     "birch_forest",
     "old_growth_birch_forest"
   ],
-  "use_expansion_hack": false
+  "use_expansion_hack": true
 }

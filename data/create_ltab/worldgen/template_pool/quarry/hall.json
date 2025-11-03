@@ -2,92 +2,30 @@
   "name": "create_ltab:quarry/hall",
   "fallback": "minecraft:empty",
   "elements": [
-	{	
+    {
       "weight": 5,
-      "element": {
-        "location": "create_ltab:quarry/hall1",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 8,
-      "element": {
-        "location": "create_ltab:quarry/hall2",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 5,
-      "element": {
-        "location": "create_ltab:quarry/hall3",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 5,
-      "element": {
-        "location": "create_ltab:quarry/hall4",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 5,
-      "element": {
-        "location": "create_ltab:quarry/hall5",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 8,
-      "element": {
-        "location": "create_ltab:quarry/hall6",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 8,
-      "element": {
-        "location": "create_ltab:quarry/hall7",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 3,
       "element": {
         "location": "create_ltab:quarry/room1",
         "processors": "minecraft:empty",
-		"projection": "rigid",
+        "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
-    },	{	
+    },
+    {
       "weight": 5,
       "element": {
         "location": "create_ltab:quarry/room2",
         "processors": "minecraft:empty",
-		"projection": "rigid",
+        "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
-    },	{	
-      "weight": 5,
+    },
+    {
+      "weight": 4,
       "element": {
         "location": "create_ltab:quarry/room3",
         "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },	{	
-      "weight": 5,
-      "element": {
-        "location": "create_ltab:quarry/room4",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
+        "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     }
