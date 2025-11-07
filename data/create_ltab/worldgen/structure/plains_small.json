@@ -10,7 +10,7 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "#create_ltab:has_structure/plains_small",
+  "biomes": "#create_ltab:has_structure/grass_structure",
   "use_expansion_hack": false
 }
 

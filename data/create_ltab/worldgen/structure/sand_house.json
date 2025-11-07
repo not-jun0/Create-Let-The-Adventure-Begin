@@ -10,10 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "desert",
-    "badlands",
-    "eroded_badlands"
-  ],
+  "biomes": "#create_ltab:has_structure/sand_structure",
   "use_expansion_hack": false
 }

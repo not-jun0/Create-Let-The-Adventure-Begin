@@ -10,17 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "plains",
-    "sunflower_plains",
-    "birch_forest",
-    "dark_forest",
-    "flower_forest",
-    "forest",
-    "old_growth_birch_forest",
-    "grove",
-    "meadow",
-    "savanna"
-  ],
+  "biomes": "#create_ltab:has_structure/grass_structure",
   "use_expansion_hack": false
 }
