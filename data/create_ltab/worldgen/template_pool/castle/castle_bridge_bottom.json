@@ -1,5 +1,5 @@
 {
-  "name": "create_ltab:castle/bridge_bottom",
+  "name": "create_ltab:castle/castle_bridge_bottom",
   "fallback": "minecraft:empty",
   "elements": [
     {

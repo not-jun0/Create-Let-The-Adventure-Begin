@@ -1,22 +1,13 @@
 {
-  "name": "create_ltab:birch/birch_house",
+  "name": "create_ltab:castle/room_bottom",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_1",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_2",
+        "location": "create_ltab:castle/castle_bottom_room1",
         "processors": "minecraft:empty"
       }
     },
@@ -25,7 +16,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_3",
+        "location": "create_ltab:castle/castle_bottom_room2",
         "processors": "minecraft:empty"
       }
     },
@@ -34,25 +25,25 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_4",
+        "location": "create_ltab:castle/castle_bottom_room3",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_5",
+        "location": "create_ltab:castle/castle_bottom_room4",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "create_ltab:birch/birch_house_6",
+        "location": "create_ltab:castle/castle_bottom_room5",
         "processors": "minecraft:empty"
       }
     }

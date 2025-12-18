@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "create_ltab:castle/castle_start",
+  "start_pool": "create_ltab:castle/castle_bottom",
   "size": 7,
   "max_distance_from_center": 115,
   "spawn_overrides": {},
