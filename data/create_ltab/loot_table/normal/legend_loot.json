@@ -100,11 +100,12 @@
         "min": 1,
         "max": 3
       },
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 6,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -120,8 +121,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
-          "quality": 2,
+          "weight": 3,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -136,7 +137,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 9,
+          "weight": 7,
           "quality": -1,
           "functions": [
             {
@@ -156,24 +157,25 @@
         "min": 0,
         "max": 2
       },
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create:blaze_burner",
-          "weight": 1,
-          "quality": 5
+          "name": "create:empty_blaze_burner",
+          "weight": 5,
+          "quality": 2
         },
         {
           "type": "minecraft:item",
           "name": "create:brass_block",
-          "weight": 2,
-          "quality": 3
+          "weight": 1,
+          "quality": 2
         },
         {
           "type": "minecraft:item",
           "name": "create:brass_ingot",
-          "weight": 4,
-          "quality": 1,
+          "weight": 6,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -188,7 +190,7 @@
         {
           "type": "minecraft:item",
           "name": "create:polished_rose_quartz",
-          "weight": 4,
+          "weight": 6,
           "quality": 1,
           "functions": [
             {
@@ -199,13 +201,35 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "book",
+          "weight": 4,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": {
+          "min": 0,
+          "max": 1
+        }
       },
       "entries": [
         {
@@ -225,7 +249,7 @@
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
           "weight": 2,
-          "quality": 2,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -243,7 +267,7 @@
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
           "weight": 2,
-          "quality": 2,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -251,6 +275,12 @@
               "only_compatible": false
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 4,
+          "quality": -1
         }
       ]
     }

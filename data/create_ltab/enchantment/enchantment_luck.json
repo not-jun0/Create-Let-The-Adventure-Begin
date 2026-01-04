@@ -9,7 +9,11 @@
       {
         "attribute": "minecraft:generic.luck",
         "id": "minecraft:enchantment.luck",
-        "amount": 1,
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
         "operation": "add_value"
       }
     ]
@@ -24,7 +28,9 @@
     "base": 1,
     "per_level_above_first": 11
   },
-  "slots": ["armor"],
+  "slots": [
+    "armor"
+  ],
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 10
 }
