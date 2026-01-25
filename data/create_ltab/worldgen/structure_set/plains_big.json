@@ -1,7 +1,15 @@
 {
   "structures": [
     {
-      "structure": "create_ltab:plains_big",
+      "structure": "create_ltab:railroad",
+      "weight": 1
+    },
+    {
+      "structure": "create_ltab:oak_house",
+      "weight": 1
+    },
+    {
+      "structure": "create_ltab:big_windmill",
       "weight": 1
     }
   ],

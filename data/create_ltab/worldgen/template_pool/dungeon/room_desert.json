@@ -1,0 +1,24 @@
+{
+  "name": "create_ltab:dungeon/room_desert",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:dungeon/room1",
+        "processors": "create_ltab:dessert_dungeon",
+	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:dungeon/room2",
+        "processors": "create_ltab:dessert_dungeon",
+	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "create_ltab:plains_big",
+  "start_pool": "create_ltab:plains_big/big_windmill",
   "size": 7,
   "max_distance_from_center": 64,
   "spawn_overrides": {},

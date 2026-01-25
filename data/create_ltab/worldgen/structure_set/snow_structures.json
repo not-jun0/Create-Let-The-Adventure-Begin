@@ -3,6 +3,10 @@
     {
       "structure": "create_ltab:snow_fort",
       "weight": 1
+    },
+    {
+      "structure": "create_ltab:dungeon_snow",
+      "weight": 1
     }
   ],
   "placement": {

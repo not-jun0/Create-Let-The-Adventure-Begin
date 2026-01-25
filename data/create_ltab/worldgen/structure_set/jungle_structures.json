@@ -3,6 +3,10 @@
     {
       "structure": "create_ltab:jungle_well",
       "weight": 1
+    },
+    {
+      "structure": "create_ltab:dungeon_jungle",
+      "weight": 1
     }
   ],
   "placement": {
