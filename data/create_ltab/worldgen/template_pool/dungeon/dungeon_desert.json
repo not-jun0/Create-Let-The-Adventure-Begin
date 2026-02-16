@@ -1,11 +1,11 @@
 {
-  "name": "create_ltab:dungeon/snow_dungeon",
+  "name": "create_ltab:dungeon/dungeon_desert",
   "fallback": "minecraft:empty",
   "elements": [
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/snow_ent",
+        "location": "create_ltab:dungeon/desert_ent",
         "processors": "minecraft:empty",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

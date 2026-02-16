@@ -1,0 +1,35 @@
+{
+  "display": "create:brass_block",
+  "settings": {
+    "biome": "minecraft:plains",
+    "features": false,
+    "lakes": false,
+    "layers": [
+      {
+        "block": "minecraft:air",
+        "height": 30
+      },
+      {
+        "block": "minecraft:bedrock",
+        "height": 1
+      },
+      {
+        "block": "minecraft:dirt",
+        "height": 40
+      },
+      {
+        "block": "minecraft:grass_block",
+        "height": 1
+      }
+    ],
+    "structure_overrides": [
+      "minecraft:villages",
+      "create_ltab:thecastle",
+      "create_ltab:plains_structures",
+      "create_ltab:the_caretakersbunker",
+      "create_ltab:ruins",
+      "create_ltab:quarry",
+      "create_ltab:grot"
+    ]
+  }
+}

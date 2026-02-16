@@ -13,7 +13,7 @@
     "frequency_reduction_method": "legacy_type_3",
     "frequency": 0.5,
     "exclusion_zone": {
-      "other_set": "create_ltab:plains_big",
+      "other_set": "create_ltab:plains_structures",
       "chunk_count": 16
     }
   }

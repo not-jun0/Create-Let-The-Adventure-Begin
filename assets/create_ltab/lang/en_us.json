@@ -28,5 +28,6 @@
   "item.create_ltab.potion_of_luck": "Potion Of Luck",
   "item.create_ltab.potion_of_luck_lore": "Increases the chances of getting better loot from chests",
   "item.create_ltab.grot_map": "Grot Explorer Map",
-  "item.create_ltab.explorer_map": "Explorer Map"
+  "item.create_ltab.explorer_map": "Explorer Map",
+  "flat_world_preset.minecraft.create": "Create Classic Flat"
 }

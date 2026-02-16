@@ -1,11 +1,11 @@
 {
-  "name": "create_ltab:dungeon/room_desert",
+  "name": "create_ltab:dungeon/stairs_desert",
   "fallback": "minecraft:empty",
   "elements": [
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room1",
+        "location": "create_ltab:dungeon/stairs1",
         "processors": "create_ltab:dessert_dungeon",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room2",
+        "location": "create_ltab:dungeon/stairs2",
         "processors": "create_ltab:dessert_dungeon",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,16 +23,7 @@
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room3",
-        "processors": "create_ltab:dessert_dungeon",
-	"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-	{	
-      "weight": 1,
-      "element": {
-        "location": "create_ltab:dungeon/room4",
+        "location": "create_ltab:dungeon/stairs3",
         "processors": "create_ltab:dessert_dungeon",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

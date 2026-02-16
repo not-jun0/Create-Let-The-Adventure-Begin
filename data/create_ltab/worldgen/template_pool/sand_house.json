@@ -82,15 +82,6 @@
         "location": "create_ltab:sand/sand_house_9",
         "processors": "minecraft:empty"
       }
-    },
-    {
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "create_ltab:dungeon/desert_ent",
-        "processors": "minecraft:empty"
-      }
     }
   ]
 }

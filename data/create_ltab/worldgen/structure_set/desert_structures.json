@@ -2,6 +2,10 @@
   "structures": [
     {
       "structure": "create_ltab:sand_house",
+      "weight": 5
+    },
+    {
+      "structure": "create_ltab:dungeon_desert",
       "weight": 1
     }
   ],

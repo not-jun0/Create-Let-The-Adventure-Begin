@@ -11,14 +11,20 @@
     {
       "structure": "create_ltab:big_windmill",
       "weight": 1
+    },
+    {
+      "structure": "create_ltab:dungeon_plains",
+      "weight": 3
+    },
+    {
+      "structure": "create_ltab:plains_small",
+      "weight": 7
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 70,
-    "separation": 5,
-    "salt": 374464,
-    "frequency_reduction_method": "legacy_type_3",
-    "frequency": 0.5
+    "spacing": 48,
+    "separation": 0,
+    "salt": 3246632
   }
 }

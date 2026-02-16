@@ -1,11 +1,11 @@
 {
-  "name": "create_ltab:dungeon/room",
+  "name": "create_ltab:dungeon/stairs",
   "fallback": "minecraft:empty",
   "elements": [
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room1",
+        "location": "create_ltab:dungeon/stairs1",
         "processors": "minecraft:empty",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room2",
+        "location": "create_ltab:dungeon/stairs2",
         "processors": "minecraft:empty",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,16 +23,7 @@
 	{	
       "weight": 1,
       "element": {
-        "location": "create_ltab:dungeon/room3",
-        "processors": "minecraft:empty",
-	"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-	{	
-      "weight": 1,
-      "element": {
-        "location": "create_ltab:dungeon/room4",
+        "location": "create_ltab:dungeon/stairs3",
         "processors": "minecraft:empty",
 	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

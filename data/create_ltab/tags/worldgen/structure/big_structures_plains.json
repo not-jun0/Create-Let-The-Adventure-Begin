@@ -1,5 +1,7 @@
 {
   "values": [
-    "create_ltab:plains_big"
+    "create_ltab:big_windmill",
+    "create_ltab:railroad",
+    "create_ltab:oak_house"
   ]
 }
