@@ -2,6 +2,10 @@
   "structures": [
     {
       "structure": "create_ltab:water_pre",
+      "weight": 2
+    },
+    {
+      "structure": "create_ltab:oil_rig",
       "weight": 1
     }
   ],

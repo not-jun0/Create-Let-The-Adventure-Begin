@@ -1,5 +1,5 @@
 {
-  "name": "create_ltab:water_pre",
+  "name": "create_ltab:water/water_pre",
   "fallback": "minecraft:empty",
   "elements": [
     {
