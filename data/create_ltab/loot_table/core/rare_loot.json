@@ -130,7 +130,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "create_ltab:plains_big",
+              "destination": "create_ltab:big_structures_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 4,
               "search_radius": 50
             },
