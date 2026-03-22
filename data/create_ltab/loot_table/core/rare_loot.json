@@ -124,7 +124,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:filled_map",
+          "name": "minecraft:map",
           "weight": 3,
           "quality": 4,
           "functions": [
