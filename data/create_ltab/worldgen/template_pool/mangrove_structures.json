@@ -19,6 +19,15 @@
         "location": "create_ltab:swamp/ruin_m_1",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "create_ltab:swamp/smallmangrove_house2",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

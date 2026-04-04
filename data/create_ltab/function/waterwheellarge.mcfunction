@@ -1,9 +1,11 @@
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=down] run setblock ~ ~ ~ create:large_water_wheel[axis=y]
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=up] run setblock ~ ~ ~ create:large_water_wheel[axis=y]
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=north] run setblock ~ ~ ~ create:large_water_wheel[axis=z]
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=south] run setblock ~ ~ ~ create:large_water_wheel[axis=z]
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=west] run setblock ~ ~ ~ create:large_water_wheel[axis=x]
-execute if block ~ ~ ~ minecraft:chain_command_block[facing=east] run setblock ~ ~ ~ create:large_water_wheel[axis=x]
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:command_block
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:redstone_block
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=z] replace create:clockwork_bearing[facing=north]
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=x] replace create:clockwork_bearing[facing=east]
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=z] replace create:clockwork_bearing[facing=south]
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=x] replace create:clockwork_bearing[facing=west]
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=y] replace create:clockwork_bearing[facing=up]
+fill ^-10 ^-10 ^-10 ^10 ^10 ^10 create:large_water_wheel[axis=y] replace create:clockwork_bearing[facing=down]
+setblock ^ ^ ^-1 air
+setblock ^ ^-1 ^-2 air
+setblock ^ ^ ^-2 air
+setblock ~ ~ ~ air
 gamerule sendCommandFeedback true
