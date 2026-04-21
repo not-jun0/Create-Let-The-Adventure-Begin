@@ -1,0 +1,168 @@
+{
+  "name": "create_ltab:grotten/small_hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 50,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 50,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room3",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room4",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 50,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room5",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x2_room6",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 45,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x3_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 45,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x3_room2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 20,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x3_room3",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/2x2x3_room4",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 20,
+      "element": {
+        "location": "create_ltab:grotten/small/2x3x2_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/2x3x2_room2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 30,
+      "element": {
+        "location": "create_ltab:grotten/small/2x4x1_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 20,
+      "element": {
+        "location": "create_ltab:grotten/small/3x2x3_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/3x2x3_room2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 40,
+      "element": {
+        "location": "create_ltab:grotten/small/3x2x3_room3",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:grotten/small/4x2x4_room4",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 20,
+      "element": {
+        "location": "create_ltab:grotten/small/4x2x4_room1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
