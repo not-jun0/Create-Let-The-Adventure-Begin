@@ -1,12 +1,12 @@
 {
-  "name": "create_ltab:the_caretakersbunker",
+  "name": "create_ltab:the_bunker",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "create_ltab:caretakers_bunker",
+        "location": "create_ltab:the_bunker",
         "projection": "rigid",
         "processors": {
           "processors": [

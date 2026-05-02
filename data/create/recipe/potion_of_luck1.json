@@ -22,7 +22,7 @@
       "amount": 250,
       "components": {
       "minecraft:potion_contents": {
-        "potion": "luck",
+        "potion": "water",
         "custom_effects": [
           {
             "id": "minecraft:luck",

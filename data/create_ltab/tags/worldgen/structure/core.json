@@ -1,0 +1,10 @@
+{
+  "values": [
+    "create_ltab:grot",
+    "create_ltab:dungeon_desert",
+    "create_ltab:dungeon_jungle",
+    "create_ltab:dungeon_plains",
+    "create_ltab:dungeon_snow",
+    "create_ltab:quarry"
+  ]
+}

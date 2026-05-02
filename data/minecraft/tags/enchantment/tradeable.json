@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "#minecraft:non_treasure",
     "minecraft:binding_curse",

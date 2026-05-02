@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
+        "min": -3,
         "max": 1
       },
       "entries": [
@@ -12,80 +12,35 @@
           "name": "minecraft:sentry_armor_trim_smithing_template",
           "weight": 1,
           "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
+          "functions": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:vex_armor_trim_smithing_template",
           "weight": 1,
           "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
+          "functions": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:wayfinder_armor_trim_smithing_template",
           "weight": 1,
           "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
+          "functions": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:raiser_armor_trim_smithing_template",
           "weight": 1,
           "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
+          "functions": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:host_armor_trim_smithing_template",
           "weight": 1,
           "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
+          "functions": []
         },
         {
           "type": "minecraft:item",
@@ -100,37 +55,35 @@
         "min": 1,
         "max": 3
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 5,
-          "quality": 1,
+          "weight": 6,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
-              },
-              "add": false
+                "min": 4,
+                "max": 6
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 3,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
+                "min": 4,
                 "max": 5
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -143,10 +96,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
+                "min": 4,
                 "max": 8
-              },
-              "add": false
+              }
             }
           ]
         }
@@ -154,15 +106,15 @@
     },
     {
       "rolls": {
-        "min": 0,
+        "min": -2,
         "max": 2
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": 0.5,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "create:empty_blaze_burner",
-          "weight": 5,
+          "weight": 3,
           "quality": 2
         },
         {
@@ -174,7 +126,7 @@
         {
           "type": "minecraft:item",
           "name": "create:brass_ingot",
-          "weight": 6,
+          "weight": 7,
           "quality": 2,
           "functions": [
             {
@@ -190,7 +142,7 @@
         {
           "type": "minecraft:item",
           "name": "create:polished_rose_quartz",
-          "weight": 6,
+          "weight": 7,
           "quality": 1,
           "functions": [
             {
@@ -205,7 +157,7 @@
         {
           "type": "minecraft:item",
           "name": "book",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "functions": [
             {
@@ -221,16 +173,10 @@
     },
     {
       "rolls": {
-        "min": 0,
+        "min": -2,
         "max": 1
       },
-      "bonus_rolls": {
-        "min": 0,
-        "max": {
-          "min": 0,
-          "max": 1
-        }
-      },
+      "bonus_rolls": 0.3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -281,6 +227,44 @@
           "name": "minecraft:book",
           "weight": 4,
           "quality": -1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": -0.1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 4,
+          "quality": -1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
         }
       ]
     }

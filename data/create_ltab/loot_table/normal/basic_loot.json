@@ -3,10 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
+        "min": -2,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": 0.2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -64,7 +64,7 @@
         {
           "type": "minecraft:item",
           "name": "bread",
-          "weight": 4,
+          "weight": 2,
           "quality": 2,
           "functions": [
             {
@@ -108,21 +108,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:beetroot",
-          "weight": 2,
-          "quality": -1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:wheat",
           "weight": 7,
           "quality": -1,
@@ -140,7 +125,7 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 1,
+      "bonus_rolls": 0.5,
       "entries": [
         {
           "type": "minecraft:item",
@@ -152,7 +137,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 7
+                "max": 4
               }
             }
           ]
@@ -160,14 +145,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 8,
+          "weight": 2,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 10
+                "min": 2,
+                "max": 5
               }
             }
           ]
@@ -175,14 +160,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 10,
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 6
+                "max": 4
               }
             }
           ]
@@ -190,14 +175,14 @@
         {
           "type": "minecraft:item",
           "name": "create:andesite_alloy",
-          "weight": 12,
+          "weight": 3,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 7
+                "max": 5
               }
             }
           ]

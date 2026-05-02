@@ -3,9 +3,18 @@
   "fallback": "minecraft:empty",
   "elements": [
 	{	
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "create_ltab:grotten/small/3x1x1_room1_vent",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }, 
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:grotten/small/2x1x1_room1_vent",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
