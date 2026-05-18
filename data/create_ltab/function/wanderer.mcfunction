@@ -1,0 +1,1 @@
+xp add @s[level=..29] 1 points

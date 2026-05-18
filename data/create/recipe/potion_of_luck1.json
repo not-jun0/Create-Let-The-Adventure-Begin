@@ -19,15 +19,15 @@
   "results": [
     {
       "type": "fluid_stack",
-      "amount": 250,
+      "amount": 500,
       "components": {
       "minecraft:potion_contents": {
         "potion": "water",
         "custom_effects": [
           {
             "id": "minecraft:luck",
-            "amplifier": 1,
-            "duration": 6000
+            "amplifier": 3,
+            "duration": 12000
           }
         ]
       }

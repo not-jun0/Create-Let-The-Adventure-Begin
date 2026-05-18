@@ -2,6 +2,10 @@
   "structures": [
     {
       "structure": "create_ltab:thecastle",
+      "weight": 10
+    },
+    {
+      "structure": "create_ltab:kings_castle",
       "weight": 1
     }
   ],

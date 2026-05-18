@@ -10,7 +10,7 @@
     },
     "description": {
       "translate": "advancements.create_ltab.root.description",
-      "fallback": "The §mfirst§r beginning"
+      "fallback": "The beginning"
     },
     "frame": "task",
     "show_toast": true,

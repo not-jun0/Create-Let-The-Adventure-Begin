@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "coal_ore": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "minecraft:custom_data": {
+              "horn_of_hatred": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "create_ltab:evoker/evoker_use"
+  }
+}

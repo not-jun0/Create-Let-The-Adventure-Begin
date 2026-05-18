@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 3,
+          "weight": 6,
           "quality": 0,
           "functions": [
             {
@@ -25,8 +25,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 1,
-          "quality": 1,
+          "weight": 2,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -36,15 +36,30 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": 0.1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -80,7 +95,7 @@
           "type": "minecraft:item",
           "name": "create:andesite_alloy",
           "weight": 3,
-          "quality": 4,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,41 +110,23 @@
     },
     {
       "rolls": {
-        "min": 0,
+        "min": -5,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": 0.5,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 2,
+          "weight": 1,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:aqua_affinity",
-                "minecraft:bane_of_arthropods",
-                "minecraft:blast_protection",
-                "minecraft:channeling",
-                "minecraft:depth_strider",
-                "minecraft:efficiency",
-                "minecraft:feather_falling",
-                "minecraft:fire_aspect",
-                "minecraft:fire_protection",
-                "minecraft:flame",
-                "minecraft:fortune",
-                "minecraft:frost_walker",
-                "minecraft:impaling",
-                "minecraft:infinity",
-                "minecraft:knockback",
+              "options": [
                 "minecraft:looting",
-                "minecraft:mending",
-                "minecraft:sweeping",
-                "minecraft:riptide",
-                "minecraft:sharpness",
-                "minecraft:unbreaking"
+                "minecraft:fortune",
+                "minecraft:luck_of_the_sea"
               ],
               "only_compatible": false
             }
@@ -138,7 +135,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 3,
+          "weight": 8,
           "quality": 1
         },
         {
@@ -150,14 +147,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 2,
-          "quality": 1
+          "weight": 5,
+          "quality": 0
         }
       ]
     },
     {
       "rolls": {
-        "min": 0,
+        "min": -5,
         "max": 1
       },
       "entries": [
@@ -165,14 +162,24 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 8,
-          "quality": 0,
+          "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.create_ltab.potion_of_luck_lore",
+                  "fallback": "Increases the chances of getting better loot from chests",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.create_ltab.potion_of_luck",
-                "fallback": "Potion Of Luck",
-                "italic": false
+                "fallback": "Potion Of Luck"
               }
             },
             {
@@ -193,10 +200,10 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "create_ltab:grot",
-              "decoration": "mansion",
-              "zoom": 4,
-              "skip_existing_chunks": false,
+              "destination": "create_ltab:core",
+              "decoration": "banner_light_gray",
+              "zoom": 3,
+              "skip_existing_chunks": true,
               "conditions": []
             },
             {
@@ -210,6 +217,48 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structure": "create_ltab:thecastle"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "create_ltab:kings_castle",
+              "decoration": "banner_black",
+              "zoom": 4,
+              "search_radius": 200,
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.create_ltab.kings_castle_map",
+                "fallback": "Kings Castle Explorer Map",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
     }
   ],
   "random_sequence": "create_ltab:normal/rare_loot"

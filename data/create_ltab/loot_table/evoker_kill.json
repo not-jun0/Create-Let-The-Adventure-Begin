@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "horn_of_hatred": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Horn of Hatred"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "User gets a random bad omen effect"
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": -1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:goggles",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 5
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "create_ltab:normal/legend_loot"
+}

@@ -123,12 +123,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:looting",
-                "minecraft:fortune",
-                "create_ltab:enchantment_luck",
-                "minecraft:luck_of_the_sea"
-              ],
+              "options": "#minecraft:treasure",
               "only_compatible": false
             }
           ]
@@ -220,6 +215,48 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structures": "#create_ltab:plains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "create_ltab:kings_castle",
+              "decoration": "minecraft:banner_light_gray",
+              "zoom": 4,
+              "search_radius": 200,
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.create_ltab.kings_castle_map",
+                "fallback": "Kings Castle Explorer Map",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
     }
   ],
   "random_sequence": "create_ltab:normal/rare_loot"
