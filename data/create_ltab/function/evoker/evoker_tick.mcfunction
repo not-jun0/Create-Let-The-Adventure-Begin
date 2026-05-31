@@ -23,3 +23,5 @@ execute as @n[tag=evoker_orb2] at @n[tag=evoker_evoker] rotated as @n[tag=evoker
 execute unless predicate create_ltab:evoker_spawn_chance run effect give @n[tag=!totemless,tag=evoker_evoker] minecraft:instant_health 1 10
 execute unless predicate create_ltab:evoker_spawn_chance run tag @n[tag=evoker_evoker] add totemless
 
+execute at @n[type=minecraft:arrow,distance=..4] run particle minecraft:poof ~ ~ ~ 0.1 0.1 0.1 0.1 5
+kill @n[type=minecraft:arrow,distance=..4]

@@ -1,0 +1,51 @@
+{
+  "name": "create_ltab:mob/pill",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 16,
+      "element": {
+        "location": "create_ltab:mob/plain_pillager",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 7,
+      "element": {
+        "location": "create_ltab:mob/plain_vindicator",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:mob/plain_evoker",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 30,
+      "element": {
+        "location": "create_ltab:mob/plain_nitwit",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 6,
+      "element": {
+        "location": "create_ltab:mob/explosive_pillager",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
