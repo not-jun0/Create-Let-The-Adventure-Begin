@@ -1,5 +1,8 @@
 execute as @n[tag=evoker_evoker] store result bossbar evoker value run data get entity @s Health
 
+execute if entity @e[type=minecraft:player,distance=..30] run bossbar set minecraft:evoker visible true
+execute unless entity @e[type=minecraft:player,distance=..30] run bossbar set minecraft:evoker visible false
+
 execute if entity @e[type=vex,distance=..10] at @e[type=vex,distance=..10] run function create_ltab:evoker/evoker_vex
 tp @e[type=minecraft:vex,distance=..10] ~ ~-500 ~
 
@@ -23,5 +26,5 @@ execute as @n[tag=evoker_orb2] at @n[tag=evoker_evoker] rotated as @n[tag=evoker
 execute unless predicate create_ltab:evoker_spawn_chance run effect give @n[tag=!totemless,tag=evoker_evoker] minecraft:instant_health 1 10
 execute unless predicate create_ltab:evoker_spawn_chance run tag @n[tag=evoker_evoker] add totemless
 
-execute at @n[type=minecraft:arrow,distance=..4] run particle minecraft:poof ~ ~ ~ 0.1 0.1 0.1 0.1 5
-kill @n[type=minecraft:arrow,distance=..4]
+execute at @n[type=#arrows,distance=..4] run particle minecraft:poof ~ ~ ~ 0.1 0.1 0.1 0.1 5
+kill @n[type=#arrows,distance=..4]

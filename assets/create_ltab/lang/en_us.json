@@ -32,7 +32,7 @@
   "enchantment.create_ltab.enchantment_luck": "Luck",
   "enchantment.create_ltab.enchantment_luck.desc": "Increases the chance of obtaining better loot.",
   "enchantment.create_ltab.wanderer": "Wanderer",
-  "enchantment.create_ltab.wanderer.desc": "Walking will have a chance to give xp",
+  "enchantment.create_ltab.wanderer.desc": "Walking will have a chance to give xp.",
   "item.create_ltab.potion_of_luck": "Potion Of Luck",
   "item.create_ltab.potion_of_luck_lore": "Increases the chances of getting better loot from chests",
   "item.create_ltab.grot_map": "Grot Explorer Map",

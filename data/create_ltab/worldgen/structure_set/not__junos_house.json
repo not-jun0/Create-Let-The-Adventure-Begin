@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "create_ltab:not__junos_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 30,
+    "spread": 2,
+    "count": 10,
+    "preferred_biomes": "#create_ltab:has_structure/grot",
+    "salt": 374464,
+    "frequency_reduction_method": "default",
+    "frequency": 1
+  }
+}
